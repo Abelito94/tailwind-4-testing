@@ -2,3 +2,15 @@
 @import "tailwindcss/utilities";
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100 700;
+  font-display: swap;
+  src: url();
+}
+
+@theme {
+  --color-cosita-rica: #09f;
+  --font-sans: "Inter", sans-serif;
+}
